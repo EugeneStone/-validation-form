@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    position: relative;
+    background: white;
+    color: black;
+    font-family: 'roboto', sans-serif;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    background: whitesmoke;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom: 0.2px solid;
+    border-color: black;
+}
+
+#button-create-account, #button-sign-in{
+    padding: 5px;
+    margin: 2px;
+    background: bisque;
+    color: black;
+    border: 1px solid;
+    border-color: #5a4949;
+    text-transform: capitalize;
+    font-size: large;
+   
+}
+
+#button-create-account{ 
+    border-radius: 10px 20px;
+}
+
+#button-sign-in{
+    border-radius: 20px 10px;
+}
+
+#button-create-account:hover, #button-sign-in:hover{
+   color: white;
+   
+}
