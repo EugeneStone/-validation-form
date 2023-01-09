@@ -11,7 +11,7 @@ html{
 body{
     width: 100%;
     position: relative;
-    background: white;
+    background: darkgray;
     color: black;
     font-family: 'roboto', sans-serif;
 }
